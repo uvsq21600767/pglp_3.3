@@ -2,8 +2,8 @@ package fr.uvsq;
 
 public class Robot {
 
-    private Position position;
-    private Direction direction;
+    protected Position position;
+    protected Direction direction;
 
     Robot() {
         this.position = new Position();
